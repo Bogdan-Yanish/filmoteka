@@ -349,7 +349,7 @@ export function fullFilmInfo(e) {
             `,
             {
               onShow: () => {
-                // console.log('Добавили ESC');
+                console.log('Добавили ESC');
                 document.addEventListener('keydown', onPressEscape);
               },
               onClose: () => {
